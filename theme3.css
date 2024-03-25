@@ -1,0 +1,23 @@
+.theme3 {
+  --bg-color: rgb(0, 0, 0);
+  --container-color: rgb(38, 19, 59);
+  --text-color: rgb(255, 230, 0);
+  --switch-bg-color: rgb(38, 19, 59);
+  --input-switch-color: rgb(94, 212, 207);
+  --number-box: rgb(38, 19, 59);
+  --text-button: white;
+  --numbers-color: rgb(255, 230, 0);
+  --buttons-bg: rgb(53, 26, 82);
+  --del-bg: rgb(91, 29, 110);
+  --reset-bg: rgb(91, 29, 110);
+  --add-bg: rgb(94, 212, 207);
+  --buttons-hover: white;
+  --del-hover: rgb(146, 163, 195);
+  --reset-hover: rgb(146, 163, 195);
+  --add-hover: rgb(214, 104, 104);
+  --add-text: rgb(0, 0, 0);
+  --num-border: rgba(203, 29, 226, 0.562);
+  --del-border: rgba(225, 0, 255, 0.562);
+  --reset-border: rgba(225, 0, 255, 0.562);
+  --add-border: rgb(124, 231, 255);
+}

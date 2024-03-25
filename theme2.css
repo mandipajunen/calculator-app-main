@@ -1,0 +1,22 @@
+.theme2 {
+  --bg-color: rgb(218, 218, 218);
+  --container-color: rgb(187, 182, 179);
+  --text-color: rgb(0, 0, 0);
+  --switch-bg-color: rgb(206, 206, 206);
+  --input-switch-color: rgb(255, 130, 60);
+  --number-box: rgb(230, 230, 230);
+  --text-button: white;
+  --numbers-color: black;
+  --buttons-bg: hsl(30, 25%, 89%);
+  --del-bg: rgb(29, 128, 128);
+  --reset-bg: rgb(29, 128, 128);
+  --add-bg: rgb(201, 91, 47);
+  --buttons-hover: white;
+  --del-hover: rgb(35, 155, 155);
+  --reset-hover: rgb(35, 155, 155);
+  --add-hover: rgb(255, 130, 60);
+  --num-border: rgba(143, 131, 120, 0.562);
+  --del-border: rgb(20, 92, 92);
+  --reset-border: rgb(20, 92, 92);
+  --add-border: rgb(146, 44, 44);
+}

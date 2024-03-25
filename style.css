@@ -1,0 +1,226 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color);
+  font-family: 'League Spartan', sans-serif;
+
+}
+
+:root {
+  --bg-color: rgb(71, 76, 104);
+  --container-color: rgb(41, 41, 61);
+  --text-color: white;
+  --switch-bg-color: rgb(41, 41, 61);
+  --input-switch-color: rgb(255, 112, 112);
+  --number-box: rgb(29, 29, 50);
+  --text-button: white;
+  --numbers-color: black;
+  --buttons-bg: hsl(30, 25%, 89%);
+  --del-bg: rgb(105, 114, 161);
+  --reset-bg: rgb(105, 114, 161);
+  --add-bg: rgb(196, 60, 60);
+  --buttons-hover: white;
+  --del-hover: rgb(146, 163, 195);
+  --reset-hover: rgb(146, 163, 195);
+  --add-hover: rgb(214, 104, 104);
+  --add-text: white;
+  --num-border: rgba(204, 188, 173, 0.562);
+  --del-border: rgb(68, 74, 104);
+  --reset-border: rgb(68, 74, 104);
+  --add-border: rgb(146, 44, 44);
+
+
+}
+
+.main {
+  padding: 120px;
+
+
+}
+
+.title {
+  color: var(--text-color);
+  font-size: 30px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+
+
+}
+
+.theme {
+  color: var(--text-color);
+  text-align: center;
+  margin-top: -30px;
+  margin-right: -40px;
+  font-size: 12px;
+  font-weight: 100;
+
+
+}
+
+.nums {
+  color: var(--text-color);
+  text-align: right;
+  padding-bottom: 0px;
+  margin-right: 11px;
+  word-spacing: 18px;
+  font-size: 13px;
+
+
+
+}
+
+input {
+
+  width: 15px;
+  height: 15px;
+  appearance: none;
+  background-color: var(--input-switch-color);
+  border-radius: 50%;
+  opacity: 0;
+
+
+
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+.themeswitch {
+
+  justify-content: center;
+  width: 88px;
+  height: 25px;
+
+  background-color: var(--switch-bg-color);
+  border-radius: 50px;
+  align-items: center;
+
+  margin-left: 233px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  padding-top: 2px;
+}
+
+#theme1 {
+  opacity: 1;
+}
+
+
+.js-calculation {
+
+  height: 50px;
+  width: 300px;
+  background-color: var(--number-box);
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-family: 'League Spartan', sans-serif;
+  color: var(--text-color);
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+
+
+
+
+}
+
+.container {
+  display: grid;
+  height: 300px;
+  width: 300px;
+  background-color: var(--container-color);
+  border-radius: 10px;
+  justify-content: space-evenly;
+  padding: 10px;
+  padding-top: 20px;
+  font-family: 'League Spartan', sans-serif;
+
+
+
+}
+
+.num-button {
+  height: 40px;
+  width: 60px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: var(--buttons-bg);
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: 'League Spartan', sans-serif;
+  box-shadow: 0px 3px var(--num-border);
+  color: var(--numbers-color);
+
+
+
+}
+
+.num-button:hover {
+  background-color: var(--buttons-hover);
+}
+
+.del-button {
+  height: 40px;
+  width: 60px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: var(--del-bg);
+  border: none;
+  font-weight: 700;
+  color: var(--text-button);
+  font-family: 'League Spartan', sans-serif;
+  box-shadow: 0px 3px var(--del-border);
+}
+
+.del-button:hover {
+  background-color: var(--del-hover);
+}
+
+.reset-button {
+  height: 40px;
+  width: 135px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  border: none;
+  background-color: var(--reset-bg);
+  color: var(--text-button);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'League Spartan', sans-serif;
+  box-shadow: 0px 3px var(--reset-border);
+}
+
+.reset-button:hover {
+  background-color: var(--reset-hover);
+}
+
+.add-button {
+  height: 40px;
+  width: 135px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  border: none;
+  background-color: var(--add-bg);
+  color: var(--add-text);
+  font-weight: 700;
+  font-family: 'League Spartan', sans-serif;
+  box-shadow: 0px 3px var(--add-border);
+}
+
+.add-button:hover {
+  background-color: var(--add-hover);
+}
